@@ -21,7 +21,7 @@ function Nav(props){
           <li><a href="/read3/">js</a></li>
     </ol>
     </nav>
-}
+}``
 function Article(props){
   return     <article>
   <h2>{props.title}</h2> 
@@ -50,6 +50,8 @@ function App() {
       setMode=('read');
     }}></Nav>
     {content}
+
+    <h3>추가요!!</h3>
     </div>
     );
 
